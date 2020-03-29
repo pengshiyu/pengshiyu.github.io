@@ -3,19 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: 彭世瑜的博客
+subtitle: '记录我的coding历程'
+description: 记录coding历程，沉淀技术底蕴
+keywords: 彭世瑜,Peng Shiyu
+author: Peng Shiyu
+# language: en
+language: zh-Hans
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: ./
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -93,9 +95,37 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
+
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
+#scheme: Gemini
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:mouday/mouday.github.io.git
+  branch: master
+
+social:
+  GitHub: https://github.com/mouday
+  ZhiHu: https://www.zhihu.com/people/pengshiyu
+
+highlight_theme: night
+
+
+links_title: "友情链接"
+
+links:
+  发热网: http://www.farthe.com/
+
+avatar: images/avatar.png
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
