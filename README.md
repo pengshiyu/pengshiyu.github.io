@@ -6,6 +6,14 @@ Node.js >= 8.10  nvm安装
 Git ： brew install git
 
 安装hexo
-npm install -g hexo-cli
+$ npm install -g hexo-cli
+$ hexo -v
+hexo: 4.2.0
+
+新建网站
+$ hexo init [folder]
+
+
+
 
 
