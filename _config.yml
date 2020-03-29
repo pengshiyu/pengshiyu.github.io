@@ -127,3 +127,10 @@ search:
   field: post
   format: html
   limit: 10000
+
+menu:
+  home: /
+  categories: /categories/
+  #about: /about/
+  archives: /archives/
+  tags: /tags/
