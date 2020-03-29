@@ -1,6 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>PyCharm激活方式</title>
+    <url>/pycharm-active-method/</url>
+    <content><![CDATA[<h2 id="方式一：激活码激活"><a href="#方式一：激活码激活" class="headerlink" title="方式一：激活码激活"></a>方式一：激活码激活</h2><p>1、修改hosts文件<br>Windows系统hosts文件路径为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">c:\windows\system32\drivers\etc</span><br></pre></td></tr></table></figure>
+
+<p>Mac和Ubantu(Linux)系统hosts文件路径为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;etc</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>添加到hosts文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">0.0.0.0 account.jetbrains.com</span><br><span class="line">0.0.0.0 www.jetbrains.com</span><br></pre></td></tr></table></figure>
+<p>如果遇到无法修改或权限问题，可以采用覆盖的方法去替换hosts文件</p>
+<p>2、 激活码激活</p>
+<p>链接: <a href="https://pan.baidu.com/s/15fwBuZco-z5uRlHWieMZNQ" target="_blank" rel="noopener">https://pan.baidu.com/s/15fwBuZco-z5uRlHWieMZNQ</a> 提取码: ihtv </p>
+<h2 id="方式二：破解文件激活"><a href="#方式二：破解文件激活" class="headerlink" title="方式二：破解文件激活"></a>方式二：破解文件激活</h2><p>1、下载补丁文件<br>下载 jetbrains-agent.jar 并将它放置到 pycharm安装目录的\bin目录下 </p>
+<p> <a href="https://pan.baidu.com/s/112tS3XjAENIHaJ-aSCe0dA" target="_blank" rel="noopener">https://pan.baidu.com/s/112tS3XjAENIHaJ-aSCe0dA</a> </p>
+<p>备用：链接: <a href="https://pan.baidu.com/s/1_ZgFmo2u2OA30mbTTeB8OA" target="_blank" rel="noopener">https://pan.baidu.com/s/1_ZgFmo2u2OA30mbTTeB8OA</a> 提取码: ndws</p>
+<p>2、配置pycharm<br>Evaluate for free -&gt; “Help” -&gt; “Edit Custom VM Options …” -&gt; 创建文件<br>最后添加</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-javaagent:你pycharm的安装目录\jetbrains-agent.jar</span><br></pre></td></tr></table></figure>
+
+<p>3、重启Pycharm<br>4、激活<br>“Help” -&gt; “Register …” -&gt; Discover Server -&gt; Activation</p>
+<p>(1) License server<br><a href="http://jetbrains-license-server" target="_blank" rel="noopener">http://jetbrains-license-server</a></p>
+<p>(2) Activation code:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eyJsaWNlbnNlSWQiOiJEMDBGMUJEVEdGIiwibGljZW5zZWVOYW1lIjoiaHR0cHM6Ly96aGlsZS5pbyIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiJVbmxpbWl0ZWQgbGljZW5zZSB0aWxsIGVuZCBvZiB0aGUgY2VudHVyeS4iLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUlMwIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiV1MiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSRCIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlJDIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiREMiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJEQiIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlJNIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiRE0iLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJBQyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkRQTiIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkdPIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUFMiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlBDIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUlNVIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In1dLCJoYXNoIjoiODkwNzA3MC8wIiwiZ3JhY2VQZXJpb2REYXlzIjowLCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">A82DEE284F-eyJsaWNlbnNlSWQiOiJBODJERUUyODRGIiwibGljZW5zZWVOYW1lIjoiaHR0cHM6Ly96aGlsZS5pbyIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiJVbmxpbWl0ZWQgbGljZW5zZSB0aWxsIGVuZCBvZiB0aGUgY2VudHVyeS4iLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUlMwIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiV1MiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSRCIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlJDIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiREMiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJEQiIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlJNIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiRE0iLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJBQyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkRQTiIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkdPIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUFMiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlBDIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUlNVIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In1dLCJoYXNoIjoiODkwNzA3MC8wIiwiZ3JhY2VQZXJpb2REYXlzIjowLCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9-5epo90Xs7KIIBb8ckoxnB&#x2F;AZQ8Ev7rFrNqwFhBAsQYsQyhvqf1FcYdmlecFWJBHSWZU9b41kvsN4bwAHT5PiznOTmfvGv1MuOzMO0VOXZlc+edepemgpt+t3GUHvfGtzWFYeKeyCk+CLA9BqUzHRTgl2uBoIMNqh5izlDmejIwUHLl39QOyzHiTYNehnVN7GW5+QUeimTr&#x2F;koVUgK8xofu59Tv8rcdiwIXwTo71LcU2z2P+T3R81fwKkt34evy7kRch4NIQUQUno&#x2F;&#x2F;Pl3V0rInm3B2oFq9YBygPUdBUbdH&#x2F;KHROyohZRD8SaZJO6kUT0BNvtDPKF4mCT1saWM38jkw&#x3D;&#x3D;-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ndaik1GD0nyTdqkZgURQZGW+RGxCdBITPXIwpjhhaD0SXGa4XSZBEBoiPdY6XV6pOfUJeyfi9dXsY4MmT0D+sKoST3rSw96xaf9FXPvOjn4prMTdj3Ji3CyQrGWeQU2nzYqFrp1QYNLAbaViHRKuJrYHI6GCvqCbJe0LQ8qqUiVMA9wG&#x2F;PQwScpNmTF9Kp2Iej+Z5OUxF33zzm+vg&#x2F;nYV31HLF7fJUAplI&#x2F;1nM+ZG8K+AXWgYKChtknl3sW9PCQa3a3imPL9GVToUNxc0wcuTil8mqveWcSQCHYxsIaUajWLpFzoO2AhK4mfYBSStAqEjoXRTuj17mo8Q6M2SHOcwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl&#x2F;GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQBonMu8oa3vmNAa4RQP8gPGlX3SQaA3WCRUAj6Zrlk8AesKV1YSkh5D2l+yUk6njysgzfr1bIR5xF8eup5xXc4&#x2F;G7NtVYRSMvrd6rfQcHOyK5UFJLm+8utmyMIDrZOzLQuTsT8NxFpbCVCfV5wNRu4rChrCuArYVGaKbmp9ymkw1PU6+HoO5i2wU3ikTmRv8IRjrlSStyNzXpnPTwt7bja19ousk56r40SmlmC04GdDHErr0ei2UbjUua5kw71Qn9g02tL9fERI2sSRjQrvPbn9INwRWl5+k05mlKekbtbu2ev2woJFZK4WEXAd&#x2F;GaAdeZZdumv8T2idDFL7cAirJwcrbfpawPeXr52oKTPnXfi0l5+g9Gnt&#x2F;wfiXCrPElX6ycTR6iL3GC2VR4jTz6YatT4Ntz59&#x2F;THOT7NJQhr6AyLkhhJCdkzE2cob&#x2F;KouVp4ivV7Q3Fc6HX7eepHAAF&#x2F;DpxwgOrg9smX6coXLgfp0b1RU2u&#x2F;tUNID04rpNxTMueTtrT8WSskqvaJd3RH8r7cnRj6Y2hltkja82HlpDURDxDTRvv+krbwMr26SB&#x2F;40BjpMUrDRCeKuiBahC0DCoU&#x2F;4+ze1l94wVUhdkCfL0GpJrMSCDEK+XEurU18Hb7WT+ThXbkdl6VpFdHsRvqAnhR2g4b+Qzgidmuky5NUZVfEaZqV&#x2F;g&#x3D;&#x3D;</span><br></pre></td></tr></table></figure>
+
+<p>5、查看有效期<br>Help-&gt;About</p>
+<blockquote>
+<p>参考<br><a href="https://blog.csdn.net/u014044812/article/details/78727496" target="_blank" rel="noopener">pyCharm最新2018激活码</a><br><a href="https://www.jianshu.com/p/355a6920116f" target="_blank" rel="noopener">2019Pycharm永久激活</a></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>PyCharm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Charles4.0.2在Mac环境安装及使用</title>
+    <url>/charles-install-and-using/</url>
+    <content><![CDATA[<p><img src="/uploads/WX20200329-184509@2x.png" alt=""></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>版本：4.20<br>下载地址：<a href="https://pan.baidu.com/s/1c22zTWO" target="_blank" rel="noopener">https://pan.baidu.com/s/1c22zTWO</a>    密码：6mu3</p>
+<p>备用链接: <a href="https://pan.baidu.com/s/1Q51aoOb5KGoS8mBtOK_QQQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1Q51aoOb5KGoS8mBtOK_QQQ</a><br>提取码: dx5e </p>
+<a id="more"></a>
+
+<p>Charles的破解方法：<br>1.打开dmg镜像，将“Charles.app”拖入应用程序中；<br>2.打开应用程序—右键“Charles.app”显示包内容—Contents—Java；<br>3.将dmg镜像包内的“charles.jar”替换覆盖到第二步的Java文件夹中；<br>4.打开“Charles.app”，等待10秒，菜单栏中找到“Help”—“Register Charles…”，输入任意信息完成注册；<br>5.完成<br>系统版本要求：OS X 10.7 或更高。</p>
+<h1 id="乱码问题"><a href="#乱码问题" class="headerlink" title="乱码问题"></a>乱码问题</h1><p>下载 CA 证书文件安装ssl证书：<br><a href="https://www.charlesproxy.com/documentation/additional/legacy-ssl-proxying/" target="_blank" rel="noopener">https://www.charlesproxy.com/documentation/additional/legacy-ssl-proxying/</a></p>
+<p>具体参考本文末尾文章</p>
+<p>1、安装证书<br>上方菜单栏 —-》Help —-》SSL Proxying —-》Install Charles Root Certificate<br>并信任证书</p>
+<p>2、设置抓取端口<br>上方菜单栏 —-》Proxy —-》SSL Proxy Settings —-》Add<br>Host：填*表示所有网站都抓<br>Port：443 </p>
+<p>参考：<br><a href="https://blog.csdn.net/a327369238/article/details/52856833" target="_blank" rel="noopener">Mac Charles乱码解决办法</a></p>
+<h1 id="手机抓包"><a href="#手机抓包" class="headerlink" title="手机抓包"></a>手机抓包</h1><h2 id="iphone："><a href="#iphone：" class="headerlink" title="iphone："></a>iphone：</h2><ol>
+<li><a href="https://www.jianshu.com/p/595e8b556a60?from=timeline&isappinstalled=0" target="_blank" rel="noopener">使用Charles对iPhone进行Http(s)请求拦截(抓包)</a><h2 id="android："><a href="#android：" class="headerlink" title="android："></a>android：</h2></li>
+<li><a href="https://jingyan.baidu.com/article/495ba841c49f1438b30ede90.html" target="_blank" rel="noopener">Mac下使用Charles进行Android抓包</a></li>
+<li><a href="https://jingyan.baidu.com/article/db55b609dbf04f4ba30a2fb2.html" target="_blank" rel="noopener">如何给华为手机网络连接设置代理</a></li>
+<li><a href="https://jingyan.baidu.com/article/ad310e800d47361849f49efd.html" target="_blank" rel="noopener">华为怎么安装证书</a></li>
+</ol>
+<blockquote>
+<p>参考：<br><a href="http://www.sdifen.com/charles402.html" target="_blank" rel="noopener">Charles 4.0.2 Mac破解版</a><br><a href="https://www.jianshu.com/p/ddef21c3b9ba" target="_blank" rel="noopener">解决Charles乱码问题</a></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>Charles</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github不能正常访问的解决方法</title>
+    <url>/github-cannot-open/</url>
+    <content><![CDATA[<h2 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h2><p>1、Github能打开，图片不能正常显示<br>2、Github代码推送超时</p>
+<a id="more"></a>
+
+<h2 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h2><p>hosts文件添加ip映射</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">windows下路径：</span><br><span class="line">C:\Windows\System32\drivers\etc\hosts</span><br><span class="line"></span><br><span class="line">Linux下路径：</span><br><span class="line">&#x2F;etc&#x2F;hosts</span><br></pre></td></tr></table></figure>
+
+<p>加入以下内容</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># GitHub Start</span><br><span class="line"></span><br><span class="line">192.30.253.112 github.com</span><br><span class="line"></span><br><span class="line">192.30.253.119 gist.github.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 assets-cdn.github.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 raw.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 gist.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 cloud.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 camo.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars0.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars1.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars2.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars3.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars4.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars5.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars6.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars7.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars8.githubusercontent.com</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>参考<br><a href="https://www.jianshu.com/p/4ca8fd6d6b16" target="_blank" rel="noopener">Github之前进入正常，随后访问不了解决方案</a></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Webpack插件使用及热更新打包</title>
     <url>/webpack-plugin-and-hot-server/</url>
     <content><![CDATA[<p>1、HtmlWebpackPlugin 自动生成基本的 html 页面<br>2、开启文件监听<br>3、webpack-dev-server热更新</p>
