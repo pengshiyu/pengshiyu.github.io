@@ -37,36 +37,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -75,36 +50,48 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Github," />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
 
 
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
 
 
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
-
-
-
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
-<meta name="description" content="问题：1、Github能打开，图片不能正常显示2、Github代码推送超时">
+
+
+  <meta name="keywords" content="Charles," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="安装版本：4.20下载地址：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1c22zTWO    密码：6mu3 备用链接: https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1Q51aoOb5KGoS8mBtOK_QQQ提取码: dx5e">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Github不能正常访问的解决方法">
-<meta property="og:url" content="./github-cannot-open/index.html">
+<meta property="og:title" content="Charles4.0.2在Mac环境安装及使用">
+<meta property="og:url" content="./2020/charles-install-and-using/index.html">
 <meta property="og:site_name" content="彭世瑜的博客">
-<meta property="og:description" content="问题：1、Github能打开，图片不能正常显示2、Github代码推送超时">
-<meta property="article:published_time" content="2020-03-29T10:41:59.000Z">
-<meta property="article:modified_time" content="2020-03-29T10:49:06.743Z">
+<meta property="og:description" content="安装版本：4.20下载地址：https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1c22zTWO    密码：6mu3 备用链接: https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1Q51aoOb5KGoS8mBtOK_QQQ提取码: dx5e">
+<meta property="og:image" content="/uploads/WX20200329-184509@2x.png">
+<meta property="article:published_time" content="2020-03-29T10:44:03.000Z">
+<meta property="article:modified_time" content="2020-03-29T10:49:22.841Z">
 <meta property="article:author" content="Peng Shiyu">
-<meta property="article:tag" content="Github">
+<meta property="article:tag" content="Charles">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/uploads/WX20200329-184509@2x.png">
 
 
 
@@ -113,10 +100,11 @@
   var CONFIG = {
     root: '/',
     scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
-    motion: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -133,20 +121,14 @@
 
 
 
-  <link rel="canonical" href="./github-cannot-open/"/>
+  <link rel="canonical" href="./2020/charles-install-and-using/"/>
 
 
 
 
 
-  <title>Github不能正常访问的解决方法 | 彭世瑜的博客</title>
+  <title>Charles4.0.2在Mac环境安装及使用 | 彭世瑜的博客</title>
   
-
-
-
-
-
-
 
 
 
@@ -164,7 +146,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -201,9 +183,9 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
+          <a href="/./" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
             首页
           </a>
@@ -213,7 +195,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
             分类
           </a>
@@ -223,7 +205,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
             归档
           </a>
@@ -233,7 +215,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
             标签
           </a>
@@ -306,7 +288,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="./github-cannot-open/">
+    <link itemprop="mainEntityOfPage" href="./2020/charles-install-and-using/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Peng Shiyu">
@@ -323,7 +305,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Github不能正常访问的解决方法</h1>
+          <h1 class="post-title" itemprop="name headline">Charles4.0.2在Mac环境安装及使用</h1>
         
 
         <div class="post-meta">
@@ -335,7 +317,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-29T18:41:59+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-29T18:44:03+08:00">
                 2020-03-29
               </time>
             
@@ -373,16 +355,25 @@
       
 
       
-        <h2 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h2><p>1、Github能打开，图片不能正常显示<br>2、Github代码推送超时</p>
+        <p><img src="/uploads/WX20200329-184509@2x.png" alt=""></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>版本：4.20<br>下载地址：<a href="https://pan.baidu.com/s/1c22zTWO" target="_blank" rel="noopener">https://pan.baidu.com/s/1c22zTWO</a>    密码：6mu3</p>
+<p>备用链接: <a href="https://pan.baidu.com/s/1Q51aoOb5KGoS8mBtOK_QQQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1Q51aoOb5KGoS8mBtOK_QQQ</a><br>提取码: dx5e </p>
 <a id="more"></a>
 
-<h2 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h2><p>hosts文件添加ip映射</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">windows下路径：</span><br><span class="line">C:\Windows\System32\drivers\etc\hosts</span><br><span class="line"></span><br><span class="line">Linux下路径：</span><br><span class="line">&#x2F;etc&#x2F;hosts</span><br></pre></td></tr></table></figure>
-
-<p>加入以下内容</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"># GitHub Start</span><br><span class="line"></span><br><span class="line">192.30.253.112 github.com</span><br><span class="line"></span><br><span class="line">192.30.253.119 gist.github.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 assets-cdn.github.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 raw.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 gist.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 cloud.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 camo.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars0.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars1.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars2.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars3.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars4.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars5.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars6.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars7.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.100.133 avatars8.githubusercontent.com</span><br></pre></td></tr></table></figure>
+<p>Charles的破解方法：<br>1.打开dmg镜像，将“Charles.app”拖入应用程序中；<br>2.打开应用程序—右键“Charles.app”显示包内容—Contents—Java；<br>3.将dmg镜像包内的“charles.jar”替换覆盖到第二步的Java文件夹中；<br>4.打开“Charles.app”，等待10秒，菜单栏中找到“Help”—“Register Charles…”，输入任意信息完成注册；<br>5.完成<br>系统版本要求：OS X 10.7 或更高。</p>
+<h1 id="乱码问题"><a href="#乱码问题" class="headerlink" title="乱码问题"></a>乱码问题</h1><p>下载 CA 证书文件安装ssl证书：<br><a href="https://www.charlesproxy.com/documentation/additional/legacy-ssl-proxying/" target="_blank" rel="noopener">https://www.charlesproxy.com/documentation/additional/legacy-ssl-proxying/</a></p>
+<p>具体参考本文末尾文章</p>
+<p>1、安装证书<br>上方菜单栏 —-》Help —-》SSL Proxying —-》Install Charles Root Certificate<br>并信任证书</p>
+<p>2、设置抓取端口<br>上方菜单栏 —-》Proxy —-》SSL Proxy Settings —-》Add<br>Host：填*表示所有网站都抓<br>Port：443 </p>
+<p>参考：<br><a href="https://blog.csdn.net/a327369238/article/details/52856833" target="_blank" rel="noopener">Mac Charles乱码解决办法</a></p>
+<h1 id="手机抓包"><a href="#手机抓包" class="headerlink" title="手机抓包"></a>手机抓包</h1><h2 id="iphone："><a href="#iphone：" class="headerlink" title="iphone："></a>iphone：</h2><ol>
+<li><a href="https://www.jianshu.com/p/595e8b556a60?from=timeline&isappinstalled=0" target="_blank" rel="noopener">使用Charles对iPhone进行Http(s)请求拦截(抓包)</a><h2 id="android："><a href="#android：" class="headerlink" title="android："></a>android：</h2></li>
+<li><a href="https://jingyan.baidu.com/article/495ba841c49f1438b30ede90.html" target="_blank" rel="noopener">Mac下使用Charles进行Android抓包</a></li>
+<li><a href="https://jingyan.baidu.com/article/db55b609dbf04f4ba30a2fb2.html" target="_blank" rel="noopener">如何给华为手机网络连接设置代理</a></li>
+<li><a href="https://jingyan.baidu.com/article/ad310e800d47361849f49efd.html" target="_blank" rel="noopener">华为怎么安装证书</a></li>
+</ol>
 <blockquote>
-<p>参考<br><a href="https://www.jianshu.com/p/4ca8fd6d6b16" target="_blank" rel="noopener">Github之前进入正常，随后访问不了解决方案</a></p>
+<p>参考：<br><a href="http://www.sdifen.com/charles402.html" target="_blank" rel="noopener">Charles 4.0.2 Mac破解版</a><br><a href="https://www.jianshu.com/p/ddef21c3b9ba" target="_blank" rel="noopener">解决Charles乱码问题</a></p>
 </blockquote>
 
       
@@ -401,7 +392,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Github/" rel="tag"># Github</a>
+            <a href="/tags/Charles/" rel="tag"># Charles</a>
           
         </div>
       
@@ -414,8 +405,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/webpack-plugin-and-hot-server/" rel="next" title="Webpack插件使用及热更新打包">
-                <i class="fa fa-chevron-left"></i> Webpack插件使用及热更新打包
+              <a href="/2020/github-cannot-open/" rel="next" title="Github不能正常访问的解决方法">
+                <i class="fa fa-chevron-left"></i> Github不能正常访问的解决方法
               </a>
             
           </div>
@@ -424,8 +415,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/charles-install-and-using/" rel="prev" title="Charles4.0.2在Mac环境安装及使用">
-                Charles4.0.2在Mac环境安装及使用 <i class="fa fa-chevron-right"></i>
+              <a href="/2020/pycharm-active-method/" rel="prev" title="PyCharm激活方式">
+                PyCharm激活方式 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -454,9 +445,9 @@
 
 
           
-  <div class="comments" id="comments">
-    
-  </div>
+
+  
+
 
 
         </div>
@@ -479,113 +470,107 @@
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
             站点概览
           </li>
         </ul>
       
 
-      <section class="site-overview sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.png"
-               alt="Peng Shiyu" />
-          <p class="site-author-name" itemprop="name">Peng Shiyu</p>
-           
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.png"
+                alt="Peng Shiyu" />
+            
+              <p class="site-author-name" itemprop="name">Peng Shiyu</p>
               <p class="site-description motion-element" itemprop="description">记录coding历程，沉淀技术底蕴</p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">5</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              <a href="/categories/index.html">
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/mouday" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                    
-                      GitHub
-                    
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="https://www.zhihu.com/people/pengshiyu" target="_blank" title="ZhiHu">
-                  
-                    <i class="fa fa-fw fa-globe"></i>
-                  
-                    
-                      ZhiHu
-                    
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
-            <div class="links-of-blogroll-title">
-              <i class="fa  fa-fw fa-globe"></i>
-              友情链接
-            </div>
-            <ul class="links-of-blogroll-list">
-              
-                <li class="links-of-blogroll-item">
-                  <a href="http://www.farthe.com/" title="发热网" target="_blank">发热网</a>
-                </li>
-              
-            </ul>
           </div>
-        
 
-        
+          <nav class="site-state motion-element">
 
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/mouday" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/pengshiyu" target="_blank" title="ZhiHu">
+                      
+                        <i class="fa fa-fw fa-globe"></i>ZhiHu</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.farthe.com/" title="发热网" target="_blank">发热网</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
       </section>
 
       
@@ -598,7 +583,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#问题："><span class="nav-number">1.</span> <span class="nav-text">问题：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解决："><span class="nav-number">2.</span> <span class="nav-text">解决：</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安装"><span class="nav-number">1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#乱码问题"><span class="nav-number">2.</span> <span class="nav-text">乱码问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#手机抓包"><span class="nav-number">3.</span> <span class="nav-text">手机抓包</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#iphone："><span class="nav-number">3.1.</span> <span class="nav-text">iphone：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#android："><span class="nav-number">3.2.</span> <span class="nav-text">android：</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -618,19 +603,30 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Peng Shiyu</span>
+
+  
 </div>
 
 
 
+
+
+
+
+
+
         
+
+
+
+
+
+
 
         
       </div>
@@ -641,6 +637,8 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -675,53 +673,65 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
-
-
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
-
-
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -746,6 +756,12 @@
 
 
   
+
+
+
+
+
+
 
 
 
@@ -1079,6 +1095,9 @@
 
   
 
+  
+
+  
   
 
   

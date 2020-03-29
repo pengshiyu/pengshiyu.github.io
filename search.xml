@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>PyCharm激活方式</title>
-    <url>/pycharm-active-method/</url>
+    <url>/2020/pycharm-active-method/</url>
     <content><![CDATA[<h2 id="方式一：激活码激活"><a href="#方式一：激活码激活" class="headerlink" title="方式一：激活码激活"></a>方式一：激活码激活</h2><p>1、修改hosts文件<br>Windows系统hosts文件路径为：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">c:\windows\system32\drivers\etc</span><br></pre></td></tr></table></figure>
 
@@ -40,7 +40,7 @@
   </entry>
   <entry>
     <title>Charles4.0.2在Mac环境安装及使用</title>
-    <url>/charles-install-and-using/</url>
+    <url>/2020/charles-install-and-using/</url>
     <content><![CDATA[<p><img src="/uploads/WX20200329-184509@2x.png" alt=""></p>
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>版本：4.20<br>下载地址：<a href="https://pan.baidu.com/s/1c22zTWO" target="_blank" rel="noopener">https://pan.baidu.com/s/1c22zTWO</a>    密码：6mu3</p>
 <p>备用链接: <a href="https://pan.baidu.com/s/1Q51aoOb5KGoS8mBtOK_QQQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1Q51aoOb5KGoS8mBtOK_QQQ</a><br>提取码: dx5e </p>
@@ -68,7 +68,7 @@
   </entry>
   <entry>
     <title>Github不能正常访问的解决方法</title>
-    <url>/github-cannot-open/</url>
+    <url>/2020/github-cannot-open/</url>
     <content><![CDATA[<h2 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h2><p>1、Github能打开，图片不能正常显示<br>2、Github代码推送超时</p>
 <a id="more"></a>
 
@@ -87,7 +87,7 @@
   </entry>
   <entry>
     <title>Webpack插件使用及热更新打包</title>
-    <url>/webpack-plugin-and-hot-server/</url>
+    <url>/2020/webpack-plugin-and-hot-server/</url>
     <content><![CDATA[<p>1、HtmlWebpackPlugin 自动生成基本的 html 页面<br>2、开启文件监听<br>3、webpack-dev-server热更新</p>
 <a id="more"></a>
 
@@ -116,7 +116,7 @@
   </entry>
   <entry>
     <title>Webpack快速入门</title>
-    <url>/webpack-quick-start/</url>
+    <url>/2020/webpack-quick-start/</url>
     <content><![CDATA[<p>webpack 是一个现代 JavaScript 应用程序的静态模块打包器(module bundler)</p>
 <a id="more"></a>
 
