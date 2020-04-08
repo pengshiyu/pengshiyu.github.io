@@ -12,6 +12,7 @@ lxml模块可以对html文档进行增、删、改、查，可以很方便的处
 <!-- more -->
 
 lxml模块常用体系结构：
+
 ```python
 lxml.etree
     class
