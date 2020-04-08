@@ -47,7 +47,7 @@ hexo d == hexo deploy
 
 hexo s -g #生成并本地预览
 hexo d -g #生成并上传
-
+hexo g -d // 相当于 hexo g + hexo d
 ```
 
 主题

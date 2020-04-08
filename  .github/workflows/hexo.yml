@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@hexo-page
 
     - name: Build and Deploy
-      uses: y4code/hexo-deploy-action@master
+      uses: y4code/hexo-deploy-action@hexo-page
       env:
         PERSONAL_TOKEN: ${{ secrets.hexo_token }}
         PUBLISH_REPOSITORY: mouday/mouday.github.io # The repository the action should deploy to.
