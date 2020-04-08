@@ -1,11 +1,15 @@
 ---
-title: lxml-start
+title: lxml模块常用体系结构
 date: 2020-04-08 10:25:24
-categories:
 tags:
+    - lxml
+categories:
+    - 爬虫
 ---
 
-<!-- more     -->
+lxml模块可以对html文档进行增、删、改、查，可以很方便的处理网页
+
+<!-- more -->
 
 lxml模块常用体系结构：
 ```python
