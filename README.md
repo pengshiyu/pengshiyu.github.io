@@ -28,7 +28,6 @@ https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
 ```
 cnpm install hexo-deployer-git -D
 ```
-
 常用指令
 ```
 hexo new "postName" #新建文章
