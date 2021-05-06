@@ -63,3 +63,6 @@ https://www.jianshu.com/p/5d5931289c09
 搜索
 
 https://www.jianshu.com/p/d388119a90ec
+
+自动部署
+https://hexo.io/docs/github-pages.html
