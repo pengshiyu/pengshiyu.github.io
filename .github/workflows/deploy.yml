@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: renzhaosy/hexo-deploy-action@master
+      uses: solybum/hexo-deploy@master
       env:
         PERSONAL_TOKEN: ${{ secrets.HEXO_TOKEN }}
         PUBLISH_REPOSITORY: pengshiyu/pengshiyu.github.io # The repository the action should deploy to.
