@@ -107,7 +107,7 @@ scheme: Pisces
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:pengshiyu/pengshiyu.github.io.git
+  repo: https://pengshiyu:abc123456PSY@github.com:pengshiyu/pengshiyu.github.io.git
   branch: gh-pages
 
 social:
